@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9924159c-bda5-4361-a9ea-a1984bb5e105" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/domain/model/TipoCategoria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/domain/model/TipoProducto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/dto/ProductoModalDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/shared/exception/CategoriaNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/shared/exception/DuplicateResourceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/shared/exception/ProductoNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Authenticacion/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Authenticacion/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../MS-Authenticacion/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/controller/CategoriaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/controller/CategoriaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/controller/ProductoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/controller/ProductoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/domain/model/Categoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/domain/model/Categoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/domain/model/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/domain/model/Producto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/dto/CategoriaDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/dto/ProductoBasicoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/dto/ProductoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/dto/ProveedorResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/repository/CategoriaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/repository/CategoriaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/repository/ProductoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/repository/ProductoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/service/CategoriaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/service/CategoriaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/service/ProductoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../MS-Producto/src/main/java/com/app/producto/service/ProductoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../MS-Producto/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/test/java/com/app/producto/CategoriaServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/test/java/com/app/producto/MsProductoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MS-Producto/src/test/java/com/app/producto/ProductoServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ByAncort&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ByAncort/Gestion-perfumeria.git&quot;,
+    &quot;accountId&quot;: &quot;0b9c51b4-91f5-412d-abb3-4b6f5d38b4b9&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2ycQJ6PcpP88zsVnxcRyv5ulkp0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven.service-result [clean,install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Eko/Documents/backend-sis/service-result&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/diego/Desktop/MICRO SERVICIOS/service-result/src/main/java/org/app/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.log&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9924159c-bda5-4361-a9ea-a1984bb5e105" name="Changes" comment="" />
+      <created>1750131309129</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750131309129</updated>
+      <workItem from="1750131310257" duration="977000" />
+      <workItem from="1750213199212" duration="653000" />
+      <workItem from="1750636593491" duration="2689000" />
+      <workItem from="1763434700498" duration="743000" />
+      <workItem from="1763435671005" duration="598000" />
+      <workItem from="1763516240077" duration="1829000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
