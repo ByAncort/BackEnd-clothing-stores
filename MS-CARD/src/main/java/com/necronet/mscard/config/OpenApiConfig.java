@@ -18,9 +18,9 @@ public class OpenApiConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("API de Carrito de compras")
                         .version("1.0")
-                        .description("API para gestión del carrito de compras")
+                        .title("MS Card - Carrito de Compras API")
+                        .description("Microservicio para gestión de carritos de compras")
                         .license(new License()
                                 .name("Apache 2.0")
                                 .url("https://www.apache.org/licenses/LICENSE-2.0")))

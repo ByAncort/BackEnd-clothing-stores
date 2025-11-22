@@ -25,7 +25,7 @@ public class ProductoClientService {
 
     private final MicroserviceClient microserviceClient;
 
-    @CircuitBreaker(name = "productosService", fallbackMethod = "fallbackProductos")
+    @CircuitBreaker(name = "productosService", fallbackMethod = "fallbackProducto")
     public ProductoResponse consultarProducto(Long productoId) {
         log.info("Consultando producto con ID: {}", productoId);
 
@@ -49,6 +49,7 @@ public class ProductoClientService {
         return response.getBody();
     }
 
+    // CORREGIDO: Método debe coincidir con el nombre en @CircuitBreaker
     public ProductoResponse fallbackProducto(Long productoId, Exception exception) {
         log.warn("Ejecutando fallback para producto ID: {}. Error: {}", productoId, exception.getMessage());
         return createDefaultProducto(productoId);
