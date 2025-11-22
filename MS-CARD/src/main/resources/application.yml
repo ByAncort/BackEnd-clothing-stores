@@ -1,0 +1,23 @@
+server:
+  port: 9002
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/perfumalandia_spa?allowPublicKeyRetrieval=true&useSSL=false
+    username: root
+    password: 1290
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+  main:
+    allow-circular-references: true
+auth:
+  url:
+    jwtMicro: http://localhost:9001/api/auth/validate-token
+    provMicro: http://localhost:9014
+    productos:
+      get-id: http://localhost:9002/api/productos/get
