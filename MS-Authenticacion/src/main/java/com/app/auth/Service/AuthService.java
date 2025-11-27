@@ -37,7 +37,6 @@ import java.util.Objects;
 
 
 @Service
-
 public class AuthService {
     private static final Logger logger = LoggerFactory.getLogger(JwtUtils.class);
 
@@ -72,6 +71,7 @@ public class AuthService {
                     .orElseThrow(()-> new RuntimeException("Usuario no encontrado"));
 
             return AuthResponse.builder()
+                    .idUser(userFind.getId())
                     .issuedAt(issuedAt)
                     .expiresAt(expiration)
                     .token(token)
@@ -179,6 +179,7 @@ public class AuthService {
         String token = jwtService.getToken(user);
 
         return AuthResponse.builder()
+                .idUser(user.getId())
                 .token(token)
                 .tokenType("Bearer")
                 .issuedAt(issuedAt)

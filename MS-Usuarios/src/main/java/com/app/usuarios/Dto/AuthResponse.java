@@ -1,6 +1,7 @@
-package com.app.auth.Dto;
+package com.app.usuarios.Dto;
 
-import com.app.auth.Models.Role;
+
+import com.app.usuarios.Model.Role;
 import lombok.*;
 
 import java.util.Date;
@@ -13,7 +14,7 @@ import java.util.Set;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AuthResponse {
-    private Long idUser;
+
     private String token;
     private String tokenType;
     private Date issuedAt;
